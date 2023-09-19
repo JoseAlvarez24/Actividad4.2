@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impares</title>
+    <link rel="stylesheet" href="./css/styleEjercicios.css">
+    <script src="./js/ejercicios.js"></script>
+    <style>
+        body {
+            background-image: url(./img/5.jpg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div>
+            <h1>Numeros Impares</h1>
+            <p>Escriba numeros dentro del rango de 0 a 100</p>
+        </div>
+    </div>
+    <div class="contenedor2">
+        <div>
+            <p>Ingrese un numero minimo o maximo<input type="number" id="txtmin" required></p>
+            <p>Ingrese un numero maximo o minimo<input type="number" id="txtmax" required></p>
+            <div class="centrar">
+
+                <button onclick="impImpar()" class="botoncentral">IMPARES</button>
+            </div>
+            <br>
+        </div>
+        <div class="lista" id="txtsalida">
+            <p>Resultado</p>
+        </div>
+    </div>
+ 
+</body>
+
+</html>
